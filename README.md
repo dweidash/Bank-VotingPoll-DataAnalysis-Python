@@ -24,4 +24,42 @@ Meanwhile, for the Poll project, the script is tasked on a dataset containing vo
 
 ### Instructions
 
-Access the files via 
+1. Download the repository from https://github.com/dweidash/Bank-VotingPoll-DataAnalysis-Python/tree/master/project-python-bankdata
+2. For either project, run main.py
+
+### Output and Explanations
+
+Output for the Bank project:
+
+```
+Financial Analysis
+----------------------------
+
+Total Months: 86
+Total: $38382578
+Average Change: $-2315.1176470588234
+Greatest Increase in Profits: Feb-2012 ($1926159)
+Greatest Decrease in Profits: Sep-2013 ($-2196167)
+```
+
+Output for the Poll project:
+
+```
+Election Analysis
+-------------------------
+Total Votes: 3521001
+-------------------------
+Khan: 63.000% (2218231)
+Correy: 20.000% (704200)
+Li: 14.000% (492940)
+O'Tooley: 3.000% (105630)
+-------------------------
+Winner: Khan
+-------------------------
+```
+
+To satisfy the goal, exporting the findings in a text file would be the best option given that the requested information is in a raw format and can be easily be presented in a website or other media per request from upstairs.
+
+However, that doesn't mean that we need to be savages and present the data in a meaningless slog. A basic data has been added with multiple dashes to block out portions of the information.
+
+No commas have been added for the numbers to avoid formatting shenanigans.
